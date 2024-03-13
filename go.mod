@@ -1,9 +1,12 @@
 module github.com/microsoft/ethr
 
 require (
-	github.com/mattn/go-runewidth v0.0.9
-	github.com/nsf/termbox-go v0.0.0-20200418040025-38ba6e5628f1
-	golang.org/x/sys v0.0.0-20200918174421-af09f7315aff
+	github.com/mattn/go-runewidth v0.0.15
+	github.com/nsf/termbox-go v1.1.1
+	golang.org/x/net v0.22.0
+	golang.org/x/sys v0.18.0
 )
 
-go 1.13
+require github.com/rivo/uniseg v0.2.0 // indirect
+
+go 1.22
